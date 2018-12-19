@@ -1,50 +1,41 @@
-# FrontendTest
+# Babel Webpack Starter
 
-## GOALS
+A starter pack to build JavaScript applications using standards from ES2015, ES2016 & ES2017. It uses webpack, Babel and webpack-dev-server to compile and serve. It is fully compatible with Async/Await as it uses the Babel polyfill.
 
-#### The main goal of this tech test is to create a client side web application that reproduces the screenshots below by using [GitHub API](https://developer.github.com/v3/) .
+### Version
+1.1.0
 
-We will only evaluate the client side code and the criteria will be based mainly on:
+## Usage
 
-1. Good use of **pure Javascript** language without external libraries and frameworks like jQuery, React...
-2. Clean HTML and CSS markup
-3. Clean, maintainable & easy-to-read
-4. Good architectural practices
+### Installation
 
-## HOW TO START
+Install the dependencies
 
-1. Investigate the GitHub API calls for `user` and `repos` (for example: test them in the browser)
-2. Fork this repository & enter into the directory
-3. Launch the web application, for example with: `python -m SimpleHTTPServer 1337`
-4. Open the browser with http://localhost:1337/ and start coding!
+```sh
+$ npm install
+```
 
-## NOT REQUIRED, BUT IMPRESSIVE
+### Serve
+To serve in the browser  - Runs webpack-dev-server
 
-- Adding Unit Testing. External libraries limitation doesn't apply here, you can use Jasmine, Karma...
-- Build System (browseriy, webpack, parcel..)
-- Keep in consideration browsers support
-- ES6+
+```sh
+$ npm start
+```
 
+### Build
+Compile and build
 
-## SCREENSHOTS
+```sh
+$ npm run build
+```
 
-#### First Screen
+## More Info
 
-The user can search a username of GitHub
+### Author
 
-![](https://drive.google.com/uc?export=view&id=1V19nQhn7Bn3E-sBNBFtFJIatSaqLUoUj)
+Brad Traversy
+[Traversy Media](http://www.traversymedia.com)
 
-#### Success Screen
+### License
 
-If the searched username does exist: The searched user profile is displayed with all his repositories
-
-![](https://drive.google.com/uc?export=view&id=1LHyqNTFVQZQ1tdidLXLrCOxo0w6JK9oa)
-
-#### Error Screen
-
-If the searched username does not exist: An error is shown
-
-![](https://drive.google.com/uc?export=view&id=1uIajOBQvo4ugtoxkga8KPbY5x2PlHh0j)
-
-
-
+This project is licensed under the MIT License
