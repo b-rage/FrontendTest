@@ -1,6 +1,6 @@
 import { logic } from './logic'
 import { view } from './view'
-require ('./style.sass')
+require ('./sass/style.sass')
 
 const search = document.getElementById("search")
 
