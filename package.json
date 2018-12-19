@@ -1,5 +1,5 @@
 {
-  "name": "babel_webpack_starter",
+  "name": "frontend-test",
   "version": "1.0.0",
   "description": "Starter pack for compiling ES6+ apps to ES5",
   "main": "app.js",
@@ -17,7 +17,9 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
     "css-loader": "^2.0.1",
+    "node-fetch": "^2.3.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",

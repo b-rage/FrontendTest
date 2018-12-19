@@ -1,3 +1,5 @@
+// const fetch = require("node-fetch")
+
 export const logic = {
 
         /**
@@ -11,17 +13,17 @@ export const logic = {
      *  
      */
 
-        async findUser(query) {
+    async findUser(query) {
 
-            if (typeof query !== "string") throw TypeError(query + " is not a string");
-            if (!query.trim().length) throw Error("query is empty or blank")
+        if (typeof query !== "string") throw TypeError(query + " is not a string")
+        if (!query.trim().length) throw Error("query is empty or blank")
 
-            const uri = `https://api.github.com/users/${query}`
-            const response = await fetch(uri)
-            const data = await response.json()
-            return data
-                
-        },
+        const uri = `https://api.github.com/users/${query}`
+        const response = await fetch(uri)
+        const data = await response.json()
+        return data
+            
+    },
 
         /**
      * 
@@ -46,3 +48,6 @@ export const logic = {
 
     }
 }
+
+// export default logic
+// module.exports = logic
