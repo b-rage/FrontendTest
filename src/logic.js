@@ -9,7 +9,6 @@ export const logic = {
      * @throws {TypeError} non-string query
      * @throws {Error} query empty or blank
      * 
-     * @returns {Promise} user Info
      *  
      */
 
@@ -31,8 +30,6 @@ export const logic = {
      * 
      * @throws {TypeError} non-string username
      * @throws {Error} username empty or blank
-     * 
-     * @returns {Promise} user repos list
      *  
      */
 
