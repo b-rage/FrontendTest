@@ -22,7 +22,8 @@ search.addEventListener("submit", e => {
             const username = user.login
   
             logic.findUserReps(username).then(reps => view.showUserReps(reps))
-    })
+            
+    }).catch(err => view.errorMessage(err.message))
     
 })
 

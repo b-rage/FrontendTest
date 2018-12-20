@@ -1,4 +1,4 @@
-// const fetch = require("node-fetch")
+//const fetch = require("node-fetch") //for test
 
 export const logic = {
 
@@ -49,5 +49,5 @@ export const logic = {
     }
 }
 
-// export default logic
-// module.exports = logic
+
+// module.exports = logic //for test

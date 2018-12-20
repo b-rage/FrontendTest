@@ -125,5 +125,17 @@ export const view = {
             }
             resultsContainer.removeChild(resultsReps) 
         }
-    }
+    },
+
+    errorMessage(message) {
+     
+        this.removeAll()
+        
+        const h3 = document.createElement("h3")
+        h3.setAttribute("class", "errorMessage")
+        h3.style.display = 'block'
+        h3.innerHTML = message
+        resultsContainer.appendChild(h3)
+        setTimeout(function() { resultsContainer.removeChild(h3)}, 3000)
+    },
 }
