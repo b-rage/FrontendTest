@@ -137,5 +137,5 @@ export const view = {
         h3.innerHTML = message
         resultsContainer.appendChild(h3)
         setTimeout(function() { resultsContainer.removeChild(h3)}, 3000)
-    },
+    }
 }
